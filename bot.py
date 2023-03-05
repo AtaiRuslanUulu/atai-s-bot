@@ -30,7 +30,7 @@ start_handler = CommandHandler('start', start)
 message_handler = MessageHandler(Filters.text & ~Filters.command, handle_message)
 
 # Create the updater and add the handlers
-updater = Updater(token='YOUR_TELEGRAM_BOT_TOKEN', use_context=True)
+updater = Updater(token='6185358630:AAEaRNRkjg3qrNV5q8JPyyHgowLxAZlg_UE', use_context=True)
 dispatcher = updater.dispatcher
 dispatcher.add_handler(start_handler)
 dispatcher.add_handler(message_handler)
